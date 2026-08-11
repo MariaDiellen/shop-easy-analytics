@@ -1,0 +1,7 @@
+SELECT 
+    nome,
+    preco,
+    estoque
+FROM produto
+WHERE preco < 1000
+  AND estoque > 10;
